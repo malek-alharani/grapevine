@@ -7,7 +7,7 @@
       </div>
       <VerticalSeparator />
       <div class="w-2/3">
-        <NoteEditor />
+        <TipTap />
       </div>
     </div>
   </div>
@@ -16,16 +16,18 @@
 <script>
 import ToolBar from './components/ToolBar.vue';
 import NoteTree from './components/NoteTree.vue';
-import NoteEditor from './components/NoteEditor.vue';
+//import NoteEditor from './components/NoteEditor.vue';
 import VerticalSeparator from './components/VerticalSeparator.vue';
+import TipTap from './components/TipTap.vue'
 
 export default {
   name: 'App',
   components: {
     ToolBar,
     NoteTree,
-    NoteEditor,
-    VerticalSeparator
+//    NoteEditor,
+    VerticalSeparator,
+    TipTap
   }
 };
 </script>
